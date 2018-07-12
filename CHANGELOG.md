@@ -1,3 +1,11 @@
+## [Version 0.3.4](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.4) (2018-7-12)
+
+### Bug fixes
+
+- hotfix path: [`63d82da`](https://github.com/blackmirror1980/sass-unused-pro/commit/63d82da)
+
+[...full changes](https://github.com/blackmirror1980/sass-unused-pro/compare/v0.3.3...v0.3.4)
+
 ## [Version 0.3.3](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.3) (2018-7-12)
 
 ### Bug fixes
