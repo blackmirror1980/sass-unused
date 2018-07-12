@@ -1,3 +1,11 @@
+## [Version 0.3.6](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.6) (2018-7-12)
+
+### New features
+
+- hotfix console.logs: [`5ea574a`](https://github.com/blackmirror1980/sass-unused-pro/commit/5ea574a)
+
+[...full changes](https://github.com/blackmirror1980/sass-unused-pro/compare/v0.3.5...v0.3.6)
+
 ## [Version 0.3.5](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.5) (2018-7-12)
 
 ### Bug fixes
