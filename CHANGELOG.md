@@ -1,3 +1,11 @@
+## [Version 0.3.2](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.2) (2018-7-12)
+
+### Bug fixes
+
+- added path support: [`69378fb`](https://github.com/blackmirror1980/sass-unused-pro/commit/69378fb)
+
+[...full changes](https://github.com/blackmirror1980/sass-unused-pro/compare/v0.3.1...v0.3.2)
+
 ## [Version 0.3.1](https://github.com/blackmirror1980/sass-unused-pro/releases/tag/v0.3.1) (2018-7-12)
 
 ### Bug fixes
