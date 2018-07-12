@@ -1,24 +1,37 @@
 {
-  "name": "sass-unused",
+  "name": "sass-unused-pro",
   "version": "0.3.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "sass-unused-pro": "./cli.js"
+  },
   "scripts": {
+    "changelog": "changelog && echo 'CHANGELOG.md file built' || echo 'CHANGELOG.md building error'",
+    "readme": "pkg-2-readme package.json > README.md -t \"./pkg-2-readme.template.md\" && echo 'README.md file built' || echo 'README.md building error'",
+    "git-prepare": "npm run changelog && npm run readme",
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "Robert Knight <robertknight@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "glob": "^7.0.5",
-    "gonzales-pe": "^4.2.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackmirror1980/sass-unused-pro.git"
   },
-  "repository": "robertknight/sass-unused",
-  "bin": {
-    "sass-unused": "./cli.js"
+  "keywords": [
+    "sass",
+    "scss"
+  ],
+  "author": "Black Mirror",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blackmirror1980/sass-unused-pro/issues"
+  },
+  "homepage": "https://github.com/blackmirror1980/sass-unused-pro",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "gonzales-pe": "^4.2.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.0.0"
+    "mocha": "^5.2.0"
   }
 }

@@ -10,5 +10,5 @@ process.argv.slice(2).forEach(arg => {
 });
 
 findUnused(srcFiles).forEach(ident => {
-  console.log(ident);
+  console.log(ident.type + ': ' + ident.value);
 });
