@@ -6,8 +6,6 @@
 
 [...full changes](https://github.com/blackmirror1980/sass-unused-pro/compare/v0.3.0...v0.3.1)
 
-# Change Log
-
 ## [0.3.0] - 2018-02-06
 
  * Update SASS parser to fix issue with parsing interpolation
